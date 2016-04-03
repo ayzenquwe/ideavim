@@ -216,13 +216,13 @@ public class RegisterActions {
     parser.registerAction(MappingMode.NVO, "VimMotionPreviousTab", Command.Type.MOTION, Command.FLAG_MOT_INCLUSIVE,
                           new Shortcut("gT"));
     parser.registerAction(MappingMode.NVO, "VimMotionCamelEndLeft", Command.Type.MOTION, Command.FLAG_MOT_INCLUSIVE,
-                          new Shortcut("]b"));
+                          new Shortcut(" ge"));
     parser.registerAction(MappingMode.NVO, "VimMotionCamelEndRight", Command.Type.MOTION, Command.FLAG_MOT_INCLUSIVE,
-                          new Shortcut("]w"));
+                          new Shortcut(" e"));
     parser.registerAction(MappingMode.NVO, "VimMotionCamelLeft", Command.Type.MOTION, Command.FLAG_MOT_EXCLUSIVE,
-                          new Shortcut("[b"));
+                          new Shortcut(" b"));
     parser.registerAction(MappingMode.NVO, "VimMotionCamelRight", Command.Type.MOTION, Command.FLAG_MOT_EXCLUSIVE,
-                          new Shortcut("[w"));
+                          new Shortcut(" w"));
     parser.registerAction(MappingMode.NVO, "VimMotionColumn", Command.Type.MOTION, Command.FLAG_MOT_EXCLUSIVE,
                           new Shortcut('|'));
     parser.registerAction(MappingMode.NVO, "VimMotionDown", Command.Type.MOTION, Command.FLAG_MOT_LINEWISE, new Shortcut[]{
